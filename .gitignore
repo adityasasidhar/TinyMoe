@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+tinymoe_final.pt
+tiny.model
+.ruff_cache
+checkpoints/
+
+cosmopedia_300mb.jsonl
+train.txt
