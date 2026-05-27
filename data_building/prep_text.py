@@ -1,6 +1,6 @@
 import json
 
-INPUT_FILE = "cosmopedia_300mb.jsonl"
+INPUT_FILE = "data.jsonl"
 OUTPUT_FILE = "train.txt"
 
 with open(INPUT_FILE) as f, \

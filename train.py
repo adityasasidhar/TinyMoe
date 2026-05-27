@@ -14,7 +14,7 @@ from data import CosmopediaDataset
 # ---- Config ----
 
 TOKENIZER      = "alea-institute/kl3m-tokenizer-003-16k"
-DATASET_PATH   = "cosmopedia_300mb.jsonl"
+DATASET_PATH   = "cosmopedia_1gb.jsonl"
 DEVICE         = "cuda" if torch.cuda.is_available() else "cpu"
 BATCH_SIZE     = 8
 GRAD_ACCUM     = 8

@@ -13,7 +13,7 @@ class ModelArgs:
     n_layers: int = 6
     n_heads: int = 8
     n_kv_heads: int = 2
-    n_experts: int = 4
+    n_experts: int = 6
     top_k: int = 2
     expert_hidden: int = 1024
 
